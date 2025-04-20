@@ -1,8 +1,8 @@
 <main class="cart-container">
-    <!-- Phần danh sách sản phẩm -->
+    <!-- Phần danh sách sản phẩm con cat -->
     <section class="cart-items">
         <h2>Giỏ hàng</h2>
-
+        
         <?php if (empty($cartItems)): ?>
             <div class="empty-cart">Giỏ hàng của bạn đang trống</div>
         <?php else: ?>
